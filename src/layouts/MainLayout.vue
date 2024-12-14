@@ -15,12 +15,17 @@
           </div>
           <div class="menu">
             <router-link to="/contact-us" class="menu-item q-px-sm text-weight-medium">
+              About Us
+            </router-link>
+          </div>
+          <div class="menu">
+            <router-link to="/contact-us" class="menu-item q-px-sm text-weight-medium">
               Contact Us
             </router-link>
           </div>
           <div class="menu">
-            <router-link to="/my-videos" class="menu-item q-px-sm text-weight-medium">
-              My Videos
+            <router-link class="menu-item q-px-sm text-weight-medium">
+              Destinations
             </router-link>
           </div>
         </div>
