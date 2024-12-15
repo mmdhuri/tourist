@@ -1,8 +1,8 @@
 {
   "name": "food-ordering-system",
   "version": "0.0.1",
-  "description": "Website for Photography",
-  "productName": "Photography",
+  "description": "Website for Tourism",
+  "productName": "Tourist",
   "author": "Manish Dhuri <manishdhuri2000@gmail.com>",
   "private": true,
   "scripts": {

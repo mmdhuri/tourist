@@ -11,103 +11,98 @@
   </section>
   <section class="q-pb-xl">
     <div class="container">
-      <h2 class="font-size-30 text-weight-medium text-center">Most Popular Tours</h2>
+      <h2 class="font-size-30 text-weight-medium text-center">Most Popular Places</h2>
+      <div class="row  justify-start items-center ">
+        <div class=" col-md-6 col-lg-3 q-ma-none full-height ">
+          <q-card flat bordered class="q-ma-sm no-border no-border-radius full-height">
+            <img src="~src/assets/Site Images/Populer Places/Bhogve Beach.jpg" width="300" style="height: 300px;">
+            <q-card-section>
+              <div class="text-h6">Bhogwe Beach</div>
+              <div class="text-subtitle3">Bhogave beach is endowed with foamy waves and silver sand. Village Bhogave has
+                another attraction of unification of sea and river named Karli. </div>
+              <q-btn class="q-mt-sm" color="primary" size="sm" label="Read More" />
+            </q-card-section>
+          </q-card>
+        </div>
+        <div class=" col-md-6 col-lg-3 q-ma-none full-height">
+          <q-card flat bordered class="q-ma-sm no-border no-border-radius full-height" style="border-radius: 0px;">
+            <img src="~src/assets/Site Images/Populer Places/tarkarli_beach.jpeg" width="300" style="height: 300px;">
+            <q-card-section>
+              <div class="text-h6">Tarkarli Beach</div>
+              <div class="text-subtitle3">It is a beach destination and remote place in southern Maharashtra. A few
+                years ago, Tarkarli beach was declared a Queen Beach of the Konkan region.</div>
+              <q-btn class="q-mt-sm" color="primary" size="sm" label="Read More" />
+            </q-card-section>
+          </q-card>
+        </div>
+        <div class="col-md-6 col-lg-3 q-ma-none full-height">
+          <q-card flat bordered class="q-ma-sm no-border no-border-radius" style="border-radius: 0px;">
+            <img src="~src/assets/Site Images/Populer Places/devbag-sangam-beach.jpeg" width="300"
+              style="height: 300px;">
+            <q-card-section>
+              <div class="text-h6">Devbagh Sangham</div>
+              <div class="text-subtitle3">Devbagh is known for its serene and uncrowded beaches, delectable seafood, and
+                as an ideal destination for a beach vacation.</div>
+              <q-btn class="q-mt-sm" color="primary" size="sm" label="Read More" />
 
-      <div class="q-pa-md">
+            </q-card-section>
+          </q-card>
+        </div>
+        <div class="col-md-6 col-lg-3 q-ma-none full-height">
+          <q-card flat bordered class="q-ma-sm no-border no-border-radius" style="border-radius: 0px;">
+            <img src="~src/assets/Site Images/Populer Places/sindhudurg_fort.jpeg" width="300" style="height: 300px;">
+            <q-card-section>
+              <div class="text-h6">Sindhudurg Fort</div>
+              <div class="text-subtitle3">Sindhudurg Fort (Marathi pronunciation: [sin̪d̪ʱud̪uɾɡ]) is a historical sea
+                fort located in Arabian Sea near the Konkan region of Maharashtra in Western India.[1] </div>
+              <q-btn class="q-mt-sm" color="primary" size="sm" label="Read More" />
+
+            </q-card-section>
+          </q-card>
+        </div>
+      </div>
+      <div class="q-pa-md hidden">
         <q-carousel v-model="slide" transition-prev="slide-right" transition-next="slide-left" swipeable animated
           control-color="amber" navigation padding arrows height="100%" class="">
           <q-carousel-slide :name="1" class="column no-wrap">
-            <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
-              <div class="example-item col-md-6 col-lg-3 q-ma-none full-height ">
+            <div class="row  justify-start items-center ">
+              <div class=" col-md-6 col-lg-3 q-ma-none full-height ">
                 <q-card flat bordered class="q-ma-sm no-border no-border-radius full-height">
-                  <img src="~src/assets/Site Images/nature/evening-sun.jpg" width="300" style="height: 300px;">
+                  <img src="~src/assets/Site Images/Populer Places/Bhogve Beach.jpg" width="300" style="height: 300px;">
                   <q-card-section>
-                    <div class="text-h6">Solitary Bird at Sunset</div>
-                    <div class="text-subtitle2">The sky is painted with shades of orange and pink, creating a serene and
-                      tranquil moment as the day comes to a close.</div>
+                    <div class="text-h6">Bhogwe Beach</div>
+                    <div class="text-subtitle2"></div>
                   </q-card-section>
                 </q-card>
               </div>
-              <div class="example-item col-md-6 col-lg-3 q-ma-none full-height">
+              <div class=" col-md-6 col-lg-3 q-ma-none full-height">
                 <q-card flat bordered class="q-ma-sm no-border no-border-radius full-height"
                   style="border-radius: 0px;">
-                  <img src="~src/assets/Site Images/nature/sea.jpg" width="300" style="height: 300px;">
+                  <img src="~src/assets/Site Images/Populer Places/tarkarli_beach.jpeg" width="300"
+                    style="height: 300px;">
                   <q-card-section>
-                    <div class="text-h6">Rainy Dusk by the Sea</div>
-                    <div class="text-subtitle2">The rhythmic sound of the waves adds a calming melody to this tranquil
-                      scene,
-                      capturing the essence of Goa's rainy season.</div>
+                    <div class="text-h6">Tarkarli Beach</div>
+                    <div class="text-subtitle2"></div>
                   </q-card-section>
                 </q-card>
               </div>
-              <div class="example-item col-md-6 col-lg-3 q-ma-none full-height">
+              <div class="col-md-6 col-lg-3 q-ma-none full-height">
                 <q-card flat bordered class="q-ma-sm no-border no-border-radius" style="border-radius: 0px;">
-                  <img src="~src/assets/Site Images/nature/Nature_Tree.jpeg" width="300" style="height: 300px;">
+                  <img src="~src/assets/Site Images/Populer Places/devbag-sangam-beach.jpeg" width="300"
+                    style="height: 300px;">
                   <q-card-section>
-                    <div class="text-h6">Tree Base View</div>
-                    <div class="text-subtitle2">The image showcases the intricate network of roots spreading outwards,
-                      creating a natural tapestry that intertwines with the earth.
-                    </div>
+                    <div class="text-h6">Devbag Sangham</div>
+                    <div class="text-subtitle2"></div>
                   </q-card-section>
                 </q-card>
               </div>
-              <div class="example-item col-md-6 col-lg-3 q-ma-none full-height">
+              <div class="col-md-6 col-lg-3 q-ma-none full-height">
                 <q-card flat bordered class="q-ma-sm no-border no-border-radius" style="border-radius: 0px;">
-                  <img src="~src/assets/Site Images/nature/Rainbow.jpg" width="300" style="height: 300px;">
+                  <img src="~src/assets/Site Images/Populer Places/sindhudurg_fort.jpeg" width="300"
+                    style="height: 300px;">
                   <q-card-section>
-                    <div class="text-h6">Rainbow Bliss</div>
-                    <div class="text-subtitle2">The spectrum of red, orange, yellow, green, blue, indigo, and violet
-                      stretches
-                      gracefully, offering a moment of serenity and wonder.</div>
-                  </q-card-section>
-                </q-card>
-              </div>
-            </div>
-          </q-carousel-slide>
-          <q-carousel-slide :name="2" class="column no-wrap">
-            <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
-              <div class="example-item col-md-6 col-lg-3 q-ma-none full-height">
-                <q-card flat bordered class="q-ma-sm no-border no-border-radius full-height"
-                  style="border-radius: 0px;">
-                  <img src="~src/assets/Site Images/nature/evening-sun.jpg" width="300" style="height: 300px;">
-                  <q-card-section>
-                    <div class="text-h6">Solitary Bird at Sunset</div>
-                    <div class="text-subtitle2">The sky is painted with shades of orange and pink, creating a serene and
-                      tranquil moment as the day comes to a close.</div>
-                  </q-card-section>
-                </q-card>
-              </div>
-              <div class="example-item col-md-6 col-lg-3 q-ma-none full-height">
-                <q-card flat bordered class="q-ma-sm no-border no-border-radius full-height"
-                  style="border-radius: 0px;">
-                  <img src="~src/assets/Site Images/nature/sea.jpg" width="300" style="height: 300px;">
-                  <q-card-section>
-                    <div class="text-h6">Rainy Dusk by the Sea</div>
-                    <div class="text-subtitle2">The rhythmic sound of the waves adds a calming melody to this tranquil
-                      scene,
-                      capturing the essence of Goa's rainy season.</div>
-                  </q-card-section>
-                </q-card>
-              </div>
-              <div class="example-item col-md-6 col-lg-3 q-ma-none full-height">
-                <q-card flat bordered class="q-ma-sm no-border no-border-radius" style="border-radius: 0px;">
-                  <img src="~src/assets/Site Images/nature/Nature_Tree.jpeg" width="300" style="height: 300px;">
-                  <q-card-section>
-                    <div class="text-h6">Tree Base View</div>
-                    <div class="text-subtitle2">The image showcases the intricate network of roots spreading outwards,
-                      creating a natural tapestry that intertwines with the earth.
-                    </div>
-                  </q-card-section>
-                </q-card>
-              </div>
-              <div class="example-item col-md-6 col-lg-3 q-ma-none full-height">
-                <q-card flat bordered class="q-ma-sm no-border no-border-radius" style="border-radius: 0px;">
-                  <img src="~src/assets/Site Images/nature/Rainbow.jpg" width="300" style="height: 300px;">
-                  <q-card-section>
-                    <div class="text-h6">Rainbow Bliss</div>
-                    <div class="text-subtitle2">The spectrum of red, orange, yellow, green, blue, indigo, and violet
-                      stretches
-                      gracefully, offering a moment of serenity and wonder.</div>
+                    <div class="text-h6">Sindhudurg Fort</div>
+                    <div class="text-subtitle2"></div>
                   </q-card-section>
                 </q-card>
               </div>
@@ -119,7 +114,7 @@
     </div>
   </section>
   <section class="">
-    <q-video :ratio="16 / 9" src="https://www.youtube.com/embed/Ctdbz3woWJY?si=qaAyzBOQS-APJGJF" />
+
   </section>
 </template>
 

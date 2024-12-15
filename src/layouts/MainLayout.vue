@@ -14,7 +14,7 @@
             </router-link>
           </div>
           <div class="menu">
-            <router-link to="/contact-us" class="menu-item q-px-sm text-weight-medium">
+            <router-link to="/about-us" class="menu-item q-px-sm text-weight-medium">
               About Us
             </router-link>
           </div>
@@ -35,10 +35,53 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <div class="home-footer" align="center">
-      <p class="q-mb-none">{{ currentYear }} Designed & Developed by <a href="mailto:manishdhuri2000@gmail.com">Manish
-          Dhuri</a> </p>
-    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul class="q-pl-sm">
+              <li>
+                <router-link to="/" class="menu-item text-weight-medium">
+                  Home
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/about-us" class="menu-item text-weight-medium">
+                  About Us
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/contact-us" class="menu-item text-weight-medium">
+                  Contact Us
+                </router-link>
+              </li>
+              <li>
+                <router-link class="menu-item text-weight-medium">
+                  Destinations
+                </router-link>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+              <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+              <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+              <a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="" align="center">
+          <p class="q-mb-none text-white">{{ currentYear }} Designed & Developed by <a
+              href="mailto:manishdhuri2000@gmail.com" class="text-white">Manish
+              Dhuri</a> </p>
+        </div>
+      </div>
+    </footer>
   </q-layout>
 </template>
 

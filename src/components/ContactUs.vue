@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="row justify-center q-pt-xl">
+    <div class="row justify-center q-py-xl">
       <div class="col-4 q-pa-md shadow-2">
         <h4 class="text-center">Connect with us</h4>
         <div class="q-gutter-md">
