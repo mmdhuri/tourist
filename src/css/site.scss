@@ -145,7 +145,11 @@
 .contact-form .q-field--filled .q-field__control {
   background: #0000006b;
 }
-.contact-form .q-field__label {
+.contact-form .q-field__label,
+.contact-form .q-field__native,
+.q-field__prefix,
+.q-field__suffix,
+.q-field__input {
   color: #ffffff;
 }
 /* Custom Container CSS */
