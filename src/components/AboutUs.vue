@@ -34,7 +34,7 @@
         </div>
       </div>
       <div class="row items-center q-pb-xl">
-        <div class="col-md-6">
+        <div class="col-md-6 order-2">
           <div class="q-px-md">
             <h3 class="font-size-20 text-weight-regular q-my-none">नेरूरपार</h3>
             <p class="q-mb-none">नेरुरपार हा नेरूर गावाचा सर्वात पश्चिमेकडील भाग आहे, तो कर्ली नदीच्या काठावर वसलेला आहे
@@ -47,7 +47,7 @@
 
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 order-1">
           <div class="q-px-md">
             <img src="~src/assets/Site Images/About-Us/Nerur Bridge.jpg" class="full-width rounded-borders">
           </div>
@@ -76,7 +76,7 @@
         </div>
       </div>
       <div class="row items-center q-pb-xl">
-        <div class="col-md-6">
+        <div class="col-md-6 order-2">
           <div class="q-px-md">
             <h3 class="font-size-20 text-weight-regular q-my-none">कोंडुरा बीच</h3>
             <p class="q-mb-none">कोंडुरा समुद्रारा हा खडकाळ किनारा त्रिकोणी वेढलेला सर्वात लहान समुद्रकिनारा आहे.
@@ -89,7 +89,7 @@
 
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 order-1">
           <div class="q-px-md">
             <img src="~src/assets/Site Images/About-Us/Kondura Beach.jpg" class="full-width rounded-borders">
           </div>

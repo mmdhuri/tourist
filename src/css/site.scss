@@ -215,6 +215,14 @@
   }
 }
 
+@media (max-width: 992px) {
+  .order-1 {
+    order: 1;
+  }
+  .order-2 {
+    order: 2;
+  }
+}
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
