@@ -53,6 +53,23 @@
 .font-size-74 {
   font-size: 74px;
 }
+
+.line-height-1 {
+  line-height: 1rem;
+}
+.line-height-2 {
+  line-height: 2rem;
+}
+.line-height-3 {
+  line-height: 3rem;
+}
+.line-height-4 {
+  line-height: 4rem;
+}
+.line-height-5 {
+  line-height: 5rem;
+}
+
 .home-header {
   background-color: #ffffff;
   box-shadow: 1px 2px 5px gray;
@@ -117,6 +134,20 @@
   opacity: 0.3;
 }
 
+.contact-us-banner {
+  background-image: url("/src/assets/Site Images/Contact Us/contact-us-form-banner.jpg");
+  padding: 200px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-form .q-field--filled .q-field__control {
+  background: #0000006b;
+}
+.contact-form .q-field__label {
+  color: #ffffff;
+}
 /* Custom Container CSS */
 .container {
   width: 100%;
@@ -226,6 +257,28 @@
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+  }
+  .font-size-lg-22 {
+    font-size: 22px;
+  }
+  .font-size-lg-74 {
+    font-size: 74px;
+  }
+
+  .line-height-lg-1 {
+    line-height: 1rem;
+  }
+  .line-height-lg-2 {
+    line-height: 2rem;
+  }
+  .line-height-lg-3 {
+    line-height: 3rem;
+  }
+  .line-height-lg-4 {
+    line-height: 4rem;
+  }
+  .line-height-lg-5 {
+    line-height: 5rem;
   }
 }
 

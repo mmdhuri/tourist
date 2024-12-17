@@ -2,8 +2,8 @@
   <section class="landing-banner">
     <div class="container">
       <div class="text-right q-py-xl text-white relative-position" style="z-index: 9;">
-        <h1 class="q-my-sm font-size-74 text-bold" style="line-height: 3rem;">Welcome to Sindhudurg</h1>
-        <p class="text-uppercase font-size-22">Whether you seek adventure, relaxation,
+        <h1 class="q-my-md font-size-38 font-size-lg-74 line-height-3 text-bold">Welcome to Sindhudurg</h1>
+        <p class="text-uppercase font-size-lg-22 font-size-16">Whether you seek adventure, relaxation,
           <br> or cultural enrichment Sindhudurg promises memories to last a lifetime.
         </p>
       </div>
